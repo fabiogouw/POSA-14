@@ -114,7 +114,7 @@ public class DownloadActivity extends DownloadBase {
             // DownloadIntentService with the appropriate Intent
             // returned from the makeIntent() factory method.
         	intent = DownloadIntentService.makeIntent(getApplicationContext(), handler, getUrlString());
-            which = "Starting IntentService";
+        	which = "Starting DownloadIntentService";
             break;
         
         case R.id.thread_pool_button:
